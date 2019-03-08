@@ -32,9 +32,7 @@ class Carousel {
         }
         this.imgs[this.index].style.display = "block";
     }
-
 }
-
 
 const carousels = document.querySelectorAll(".carousel");
 carousels.forEach(carousel => new Carousel(carousel));
